@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root" class="container">
+        <h2 class="center-align">My Content</h2>
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+        <table id="myTable">
+            <tr class="header">
+                <th style="width:60%;">Name</th>
+                <th style="width:40%;">Country</th>
+            </tr>
+            <tr class="tr">
+                <td>Alfreds Futterkiste</td>
+                <td>Germany</td>
+            </tr>
+            <tr class="tr">
+                <td>Berglunds snabbkop</td>
+                <td>Sweden</td>
+            </tr>
+            <tr class="tr">
+                <td>Island Trading</td>
+                <td>UK</td>
+            </tr>
+            <tr class="tr">
+                <td>Koniglich Essen</td>
+                <td>Germany</td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="./js/tableFilter.js"></script>
+
+</html>
